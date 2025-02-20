@@ -1,0 +1,33 @@
+.Images
+{
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.image-div
+{
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.Images:hover{
+    scale: 1.2;
+}
+.selected-Image
+{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    /* background-color: yellow; */
+}
+.Image-selected
+{
+   
+    width: 100%;
+    height: 100%;
+}
